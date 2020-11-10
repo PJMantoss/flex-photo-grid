@@ -8,3 +8,9 @@ html, body {
 * {
     font-family: "Lucida Console", Monaco, monospace;
 }
+
+.my-gallery {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
