@@ -12,5 +12,11 @@ html, body {
 .my-gallery {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.my-photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
