@@ -13,5 +13,7 @@ function getMyPhotosHtml(photos){
 
 getPhotos().then(photos => {
     let myPhotosHtml = getMyPhotosHtml(photos);
-    document.html.innerHMTL =``;
+    document.html.innerHMTL =`<div class="my-gallery">
+                 <img src="" alt="">
+             </div>`;
 })
