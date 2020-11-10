@@ -21,7 +21,11 @@ getPhotos().then(photos => {
     </div>`;
 
     let myPhotosImgs = Array.from(document.getElementsByClassName("my-photo"));
-    myPhotosImgs.forEach(myPhoto => {
-        myPhoto.addEventListener("click", e => {})
+    myPhotosImgs.forEach(photoImg => {
+        photoImg.addEventListener("click", e => {
+            let selectedPhotoSrc = ;
+            let selectedPhoto = ;
+            selectedPhotoSrc.style.display = "inline";
+        })
     })
 })
