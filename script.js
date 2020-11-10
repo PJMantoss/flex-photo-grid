@@ -23,7 +23,7 @@ getPhotos().then(photos => {
     let myPhotosImgs = Array.from(document.getElementsByClassName("my-photo"));
     myPhotosImgs.forEach(photoImg => {
         photoImg.addEventListener("click", e => {
-            let selectedPhotoSrc = ;
+            let selectedPhotoSrc = photoImg.src.substr(0, photoImg.src.length - 7) + `300/300`;
             let selectedPhoto = ;
             selectedPhotoSrc.style.display = "inline";
         })
