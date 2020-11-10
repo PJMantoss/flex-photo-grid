@@ -10,3 +10,8 @@ function getMyPhotosHtml(photos){
     }).join('');
     return `<div class="my-photos">${myPhotosHtml}</div>`
 }
+
+getPhotos().then(photos => {
+    let myPhotosHtml = getMyPhotosHtml(photos);
+    document.html.innerHMTL =``;
+})
