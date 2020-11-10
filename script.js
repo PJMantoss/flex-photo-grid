@@ -25,7 +25,8 @@ getPhotos().then(photos => {
         photoImg.addEventListener("click", e => {
             let selectedPhotoSrc = photoImg.src.substr(0, photoImg.src.length - 7) + `300/300`;
             let selectedPhoto = document.getElementById("my-selected-photo");
-            selectedPhotoSrc.style.display = "inline";
+            selectedPhoto.src = selectedPhotoSrc;
+            selectedPhoto.style.display = "inline";
         })
     })
 })
