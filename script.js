@@ -17,6 +17,8 @@ getPhotos().then(photos => {
         <img id="my-selected-photo" class="my-photo" 
              src="https://picsum.photos/id/${photos[2].id}/300/300"
         />
-        ${}
+        ${myPhotosHtml}
     </div>`;
+
+    let myPhotosImgs = Array.from(document.getElementsByClassName("my-photo"));
 })
