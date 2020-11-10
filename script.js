@@ -21,4 +21,7 @@ getPhotos().then(photos => {
     </div>`;
 
     let myPhotosImgs = Array.from(document.getElementsByClassName("my-photo"));
+    myPhotosImgs.forEach(myPhoto => {
+        myPhoto.addEventListener("click", e => {})
+    })
 })
