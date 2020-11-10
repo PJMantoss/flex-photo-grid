@@ -1,5 +1,5 @@
 async function getPhotos(){
-    let myPhotos = await fetch("photos.json");
-    let photos = await myPhotos.json();
+    let res = await fetch("photos.json");
+    let photos = await res.json();
     return photos;
 }
